@@ -173,3 +173,13 @@ button:hover {
     width: 80px;
 }
 
+/* nav */
+
+.menu {
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index:1001;
+}
+
