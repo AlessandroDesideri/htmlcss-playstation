@@ -1,0 +1,175 @@
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.small_text {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.light_text {
+    color: #fff;
+}
+
+.dark_text {
+    color: #000;
+}
+
+.blue_text {
+    color: #2C64E5;
+}
+
+.bg_dark {
+    background-color: #1f1f1f;
+}
+
+.bg_grey {
+    background-color: #BEBCBB;
+}
+
+.bg_dark_blue {
+    background-color: #161c3b;
+}
+
+.bg_blue {
+    background-color: #00439C;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.img_radius {
+    border-radius: 15px;
+}
+
+.ps_navbar .dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.ps_navbar #navbarDropdown {
+    color: #000;
+}
+
+.ps_navbar #navbarDropdown:hover {
+    color: #2C64E5;
+}
+
+/* button */
+button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2C64E5;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 50px;
+    outline-color: #fff;
+    outline-width: 1px;
+    outline-style: none;
+    outline-offset: -3px;
+}
+
+.button_colored {
+    background-color: #CD3D0F;
+    outline-color: #000;
+    outline-width: 1px;
+    outline-style: none;
+    outline-offset: -3px;
+}
+
+.button_white_black {
+    background-color: #fff;
+    color: #000;
+    outline-color: #000;
+    outline-width: 1px;
+    outline-style: none;
+    outline-offset: -3px;
+}
+
+.button_black_white {
+    background-color: #1f1f1f;
+    outline-color: #fff;
+    outline-width: 1px;
+    outline-style: none;
+    outline-offset: -3px;
+}
+
+.button_white_blue {
+    background-color: #fff;
+    color: #00439C;
+}
+
+.button_height {
+    height: 40px;
+}
+
+/* button hover */
+button:hover {
+    outline-color: #fff;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-offset: -3px;
+    transition: all 0.5s;
+}
+
+.button_white_blue:hover {
+    background-color: #fff;
+    color: #00439C;
+    box-shadow: 0px 0px 20px #d1dfff;
+}
+
+.button_colored:hover,
+.button_white_black:hover {
+    outline-color: #000;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-offset: -3px;
+    transition: all 0.5s;
+}
+
+.button_black_white:hover {
+    outline-color: #fff;
+    background-color: #878787;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-offset: -3px;
+    transition: all 0.5s;
+}
+
+.game_logo {
+    width: 60%;
+}
+
+.banner_logo {
+    width: 80%;
+}
+
+
+/* -------------------------- */
+
+/* topbar */
+
+.topbar {
+    background-color: #000;
+    height: 35px;
+    padding: 3px 10px;
+}
+
+.topbar_logo {
+    width: 80px;
+}
+
