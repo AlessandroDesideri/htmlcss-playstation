@@ -1,17 +1,17 @@
 h2 {
-    font-size: 40px;
+    font-size: 42px;
 }
 
 p {
     margin: 0;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 30px;
     color: #878787;
     font-weight: 500;
 }
 
 .small_text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 .img_radius {
-    border-radius: 15px;
+    border-radius: 19px;
 }
 
 .ps_navbar .dropdown-menu.show {
@@ -159,21 +159,19 @@ button:hover {
 }
 
 
-/* -------------------------- */
+/* headtop */
 
-/* topbar */
-
-.topbar {
+.headtop {
     background-color: #000;
     height: 35px;
     padding: 3px 10px;
 }
 
-.topbar_logo {
+.headtop_logo {
     width: 80px;
 }
 
-/* nav */
+/* NavBar */
 
 .menu {
     width: 100%;
@@ -183,7 +181,7 @@ button:hover {
     z-index:1001;
 }
 
-/* jumbo */
+/* Jumbotron */
 
 .jumbotron {
     height: 600px;
@@ -214,11 +212,21 @@ button:hover {
 }
 
 .item_play {
+    width: 230px;
     opacity: 1;
     cursor: pointer;
-    transition: opacity 0.5s;
+    transition: 0.5s;
 }
 
 .item_play:hover {
     opacity: 0.5;
+}
+
+/* Games */
+
+.game_jumbo {
+    margin-top: 65px;
+    height: 600px;
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
